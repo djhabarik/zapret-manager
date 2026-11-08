@@ -4,10 +4,10 @@
 
 **Одна панель для обхода блокировок на роутере OpenWrt — Zapret, Steer, Forkozz, ByeTube, Mixomo, TG WS Proxy, AmneziaWG, DoH, блокировка рекламы и hosts в одном месте.**
 
-[![Stars](https://img.shields.io/github/stars/StressOzz/Zapret-Manager?style=for-the-badge&color=38BDF8)](https://github.com/StressOzz/Zapret-Manager/stargazers)
+[![Stars](https://img.shields.io/github/stars/djhabarik/zapret-manager?style=for-the-badge&color=38BDF8)](https://github.com/djhabarik/zapret-manager/stargazers)
 [![Telegram](https://img.shields.io/badge/Telegram-сообщество-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/stressozz_manager)
 [![StressKVN](https://img.shields.io/badge/StressKVN-обход_белых_списков-3C3489?style=for-the-badge)](http://stresskvn.lol/)
-[![Views](https://gitviews.com/repo/StressOzz/Zapret-Manager.svg?style=for-the-badge&label=Views&label-color=%23555&color=%2310B981&base=559060)](https://github.com/StressOzz/Zapret-Manager)
+[![Views](https://gitviews.com/repo/djhabarik/zapret-manager.svg?style=for-the-badge&label=Views&label-color=%23555&color=%2310B981&base=559060)](https://github.com/djhabarik/zapret-manager)
 </div>
 
 ---
@@ -101,7 +101,7 @@
 Подключитесь к роутеру по SSH и выполните:
 
 ```sh
-sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/refs/heads/main/ZapretManager_LuCI.sh)
+sh <(wget -qO - https://raw.githubusercontent.com/djhabarik/zapret-manager/refs/heads/main/ZapretManager_LuCI.sh)
 ```
 
 *Зачем SSH:* установщик копирует файлы в систему роутера и настраивает службы — из браузера этого не сделать.
@@ -135,12 +135,12 @@ sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/refs/
 > **Обновление.** Панель сама проверяет новую версию и показывает баннер на дашборде. Кнопка «Обновить панель» скачивает установщик, проверяет его целостность (заголовок, номер версии, синтаксис `sh -n`) и только потом ставит — так битая загрузка не сломает панель. Настройки всех компонентов при обновлении сохраняются.
 
 > [!TIP]
-> Консольная версия: команда **`zms`** запускает [Zapret-Manager.sh](https://github.com/StressOzz/Zapret-Manager) прямо в терминале — удобно, когда браузер не нужен.
+> Консольная версия: команда **`zms`** запускает [Zapret-Manager.sh](https://github.com/djhabarik/zapret-manager) прямо в терминале — удобно, когда браузер не нужен.
 
 > [!NOTE]
-> Если Вам нужна версия, только для **SSH** - [**readme_ssh.md**](https://github.com/StressOzz/Zapret-Manager/blob/main/readme_ssh.md)
+> Если Вам нужна версия, только для **SSH** - [**readme_ssh.md**](https://github.com/djhabarik/zapret-manager/blob/main/readme_ssh.md)
 > ```
-> sh <(wget -qO - 'https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/Zapret-Manager.sh')
+> sh <(wget -qO - 'https://raw.githubusercontent.com/djhabarik/zapret-manager/main/Zapret-Manager.sh')
 > ```
 
 
